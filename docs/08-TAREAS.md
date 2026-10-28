@@ -18,7 +18,7 @@ Este documento especifica la secuencia estructurada de etapas y tareas técnicas
 
 ---
 
-## Etapa 0.1: Arnés SDD y repositorio (en curso)
+## Etapa 0.1: Arnés SDD y repositorio (casi completa)
 - [x] Crear `docs/CONSTITUCION.md` con principios verificables.
 - [x] Crear `docs/PROMPTS.md` con tres errores de IA documentados.
 - [x] Crear `docs/DECLARACION-IA.md` y `multimedia/FICHAS-IA.md`.
@@ -27,13 +27,13 @@ Este documento especifica la secuencia estructurada de etapas y tareas técnicas
 - [x] Crear los comandos `/spec`, `/clarificar`, `/plan`, `/tareas`, `/verificar` y `/cambio`.
 - [x] Crear las skills `verificar-criterios`, `escribir-spec-ears` y `revisar-multimedia-ia`.
 - [x] Copiar los assets de marca a `public/marca/`.
-- [ ] Inicializar Git, configurar email noreply, commit y push.
+- [x] Inicializar Git, configurar email noreply, commit y push (`8595e7b`).
 - [ ] Confirmar el renombre del repositorio y el stack con la cátedra.
 
 ---
 
 ## Etapa 1: Configuración Inicial e Identidad Visual
-- [ ] Inicializar el proyecto con React + Vite y configurar el repositorio en GitHub.
+- [ ] Inicializar el proyecto con React + Vite en el repositorio ya creado.
 - [ ] Instalar e integrar Tailwind CSS, DaisyUI, Lucide React, Sonner y Framer Motion.
 - [ ] Instalar React Router, React Hook Form, react-helmet-async, vite-react-ssg, qrcode.react y browser-image-compression.
 - [ ] Configurar `tailwind.config.js` y `src/styles/index.css` con los tokens oficiales (`fondo`, `principal`, `dorado`, `secundario`, `acento`, `verde`, `contraste`) y las fuentes *Cormorant Garamond* y *Poppins*.
@@ -45,7 +45,7 @@ Este documento especifica la secuencia estructurada de etapas y tareas técnicas
 ---
 
 ## Etapa 2: Base de Datos y Capa API
-- [ ] Configurar la instancia de PostgreSQL en Neon y definir `DATABASE_URL` en `.env.local`.
+- [ ] Configurar la instancia de PostgreSQL en Neon y definir `DATABASE_URL` en `.env`.
 - [ ] Ejecutar `db/esquema.sql` (categorías, productos, producto_imagenes, opciones_personalizacion, solicitudes_presupuesto, presupuesto_items y tablas de auth).
 - [ ] Cargar `db/seed.sql` con las cuatro líneas reales (Agendas, Agendas Docentes, Revistas para Colorear, Anotadores) y opciones con recargo.
 - [ ] Crear `lib/db.js` con `@neondatabase/serverless` y consultas parametrizadas.
@@ -80,7 +80,7 @@ Este documento especifica la secuencia estructurada de etapas y tareas técnicas
 - [ ] Desarrollar `CarritoDrawer.jsx` e `ItemCarrito.jsx` con avisos de **Sonner**.
 - [ ] Implementar `whatsappService.js` para formatear el mensaje y generar la URL `wa.me`.
 - [ ] Integrar `POST /api/presupuestos` antes de abrir WhatsApp.
-- [ ] Usar el número de ejemplo `5491100000000` hasta recibir el real.
+- [ ] Configurar `VITE_WHATSAPP_PHONE_NUMBER` en `.env`; usar un placeholder hasta recibir el real.
 - [ ] Probar el flujo completo: selección → carrito → registro → WhatsApp.
 
 ---

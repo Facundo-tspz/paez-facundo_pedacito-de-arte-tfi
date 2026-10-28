@@ -4,10 +4,10 @@ Sistema web del taller **Pedacito de Arte**, desarrollado como Trabajo Final Int
 
 ## Estado
 
-- **Fase actual:** 0 — estructura del repositorio y documentación SDD.
+- **Fase actual:** 0 completada — estructura, documentación SDD y specs publicadas.
 - **MVP:** catálogo, carrito de presupuesto, WhatsApp y panel de administración.
 - **Sitio publicado:** pendiente de conectar Netlify.
-- **Repositorio:** <https://github.com/Facundo-tspz/paez-facundo_pedacito-de-arte-tfi>
+- **Repositorio:** <https://github.com/Facundo-tspz/paez-facundo_pedacito-de-arte-tfi> (commit inicial `8595e7b`).
 - **Nombre previsto del repositorio:** `iest-tfi_pedacito-de-arte` (el renombre se confirma en GitHub).
 
 ## Stack

@@ -19,7 +19,7 @@ Este archivo es la **memoria de trabajo** del proyecto. Lo usa el agente/IA para
 - **Fecha de última actualización:** 2026-10-28
 - **Fase:** Fase 0 en curso. Documentación, arnés SDD y estructura base creados. **No hay código de aplicación todavía.**
 - **Etapa del roadmap:** Etapa 0 y 0.1 casi completas. Próxima: Etapa 1 (setup de React + Vite).
-- **Repositorio Git:** local inicializado; push pendiente. URL actual: <https://github.com/Facundo-tspz/paez-facundo_pedacito-de-arte-tfi>.
+- **Repositorio Git:** inicializado y publicado en `main` (commit `8595e7b`). URL actual: <https://github.com/Facundo-tspz/paez-facundo_pedacito-de-arte-tfi>.
 - **Renombre pendiente:** `iest-tfi_pedacito-de-arte` (el usuario lo confirma en GitHub).
 - **Cuentas:** Netlify disponible. Neon y Cloudinary pendientes de crear.
 - **Archivos existentes:** `AGENTS.md`, `CLAUDE.md`, `memory.md`, `README.md`, `docs/`, `specs/`, `.agents/`, `.opencode/`, `public/marca/`, `marca/`, `multimedia/`.
@@ -56,10 +56,9 @@ Este archivo es la **memoria de trabajo** del proyecto. Lo usa el agente/IA para
 1. Confirmar en clase el alcance del viernes, la aceptación del stack, el nombre del repo y los anexos.
 2. Renombrar el repo en GitHub y actualizar el remote; usar email noreply para commits.
 3. Crear Neon y Cloudinary; cargar variables en `.env` y Netlify.
-4. Hacer el primer commit y push de la Fase 0.
-5. Ejecutar la **Etapa 1** de `docs/08-TAREAS.md`: inicializar React + Vite, instalar dependencias, configurar Tailwind/tokens, ESLint/Prettier/Vitest y assets.
-6. Marcar las casillas de `08-TAREAS.md` a medida que se completen.
-7. Registrar cada avance en la bitácora de abajo.
+4. Ejecutar la **Etapa 1** de `docs/08-TAREAS.md`: inicializar React + Vite, instalar dependencias, configurar Tailwind/tokens, ESLint/Prettier/Vitest y assets.
+5. Marcar las casillas de `08-TAREAS.md` a medida que se completen.
+6. Registrar cada avance en la bitácora de abajo.
 
 ---
 
@@ -143,8 +142,8 @@ Este archivo es la **memoria de trabajo** del proyecto. Lo usa el agente/IA para
   - Copia de los assets de marca a `public/marca/`.
   - Ajuste del esquema: `slug` de producto, `imagen_public_id`, `imagen_alt`, `public_id` de galería y URLs a 500 caracteres.
   - Seed actualizado a las cuatro líneas reales y sin marcas infantiles registradas.
-- **Verificación:** pendiente de ejecutar Git, revisar fences Markdown y buscar referencias residuales a Vercel/Blob.
-- **Pendiente:** commit/push, Neon, Cloudinary, fotos reales y respuestas de la cátedra.
+- **Verificación:** repositorio inicializado, commit `8595e7b` creado y push a `origin/main` exitoso. Las referencias restantes a Vercel/Blob son históricas o prohibiciones explícitas.
+- **Pendiente:** renombre del repo, Neon, Cloudinary, fotos reales, respuestas de la cátedra y scaffold de Vite.
 
 ---
 

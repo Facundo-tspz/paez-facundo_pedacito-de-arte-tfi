@@ -18,7 +18,7 @@ Este documento especifica las prácticas de seguridad, protección de datos sens
 ## 2. Protección de Variables de Entorno y Credenciales
 
 - **Variables Sensibles (`.env`):** `DATABASE_URL`, `AUTH_SECRET`, `CLOUDINARY_API_KEY` y `CLOUDINARY_API_SECRET` se almacenan solo en el servidor y nunca se exponen al cliente. `SESSION_TTL_HOURS` (8 por defecto) es configuración del servidor.
-- **Inclusión en `.gitignore`:** `.env.local`, `.env` y cualquier archivo con credenciales quedan fuera del repositorio.
+- **Inclusión en `.gitignore`:** `.env`, `.env.*` (excepto `.env.example`) y cualquier archivo con credenciales quedan fuera del repositorio.
 - **Prefijo para Variables Públicas:** únicamente las variables leídas por el navegador usan el prefijo `VITE_` (ej. `VITE_WHATSAPP_PHONE_NUMBER`). El número de WhatsApp es público por diseño.
 - **`.env.example`:** lista todas las variables con valores de ejemplo; nunca contiene secretos reales.
 

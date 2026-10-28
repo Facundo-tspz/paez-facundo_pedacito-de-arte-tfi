@@ -4,7 +4,7 @@
 
 ## Estado
 
-- Fase 0 en curso: estructura del repositorio, arnés SDD y documentación.
+- Fase 0 completada en el repositorio: estructura, arnés SDD y documentación publicados en `main` (commit `8595e7b`).
 - Repositorio público e individual. URL actual: <https://github.com/Facundo-tspz/paez-facundo_pedacito-de-arte-tfi>.
 - Renombre pendiente a `iest-tfi_pedacito-de-arte`; el usuario lo confirma en GitHub.
 - Cuenta Netlify disponible. Neon y Cloudinary serán creados por el usuario.
@@ -33,7 +33,7 @@
 
 ## Próximo paso
 
-Terminar la Fase 0, hacer el primer commit y push. Después scaffold de la aplicación y migración del esquema a Neon.
+Scaffold de la aplicación con Vite, migración del esquema a Neon y primer deploy en Netlify. Antes, confirmar el stack y el alcance con la cátedra.
 
 ## Reglas para retomar
 
